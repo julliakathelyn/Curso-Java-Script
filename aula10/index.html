@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+    <body onresize="alert('O tamanho da pagina mudou')">
+
+    <p>onload="alert('A pagina terminou de carregar')"</p>
+    <p>onmouseup="alert('clicou na tela')"</p>
+    <p>onmousedown="alert('clicou na tela')" </p>
+
+    <h1>Aprendendo JavaScript</h1>
+    <h2>Eventos JavaScript</h2>
+    <p id="texto"></p>
+
+    <p> button onclick="eventoClick()">EVENTOCLICK</button></p>
+
+    <h2> ondblclick</h2>
+    <button ondblclick="eventoDblClick()">2 Cliques</button><br><br>
+
+
+    <h2> onmousemove</h2>
+    <div id="teste" onmousemove="adicionaTexto()" onmouseout="viraAzul()" onmouseover="viraVermelho()"
+        style="margin: auto auto; width: 80%; height: 200px; background: blue; ">
+    </div>
+
+    <br>
+
+    <h2>onfocus</h2>
+    <input onfocus="alert('Campo focado')" id="campoTexto" style="padding: 80px; font-size:40px;" type="text"
+        placeholder="Digite alguma coisa"><br><br>
+
+    <h2> onchange</h2>
+    <input onchange="mudou()" id="campoTextoooooooo" style="padding: 80px; font-size:40px;" type="text"
+        placeholder="Digite alguma coisa" value="Ja vem com texto"><br><br>
+
+    <h2>onchange</h2>
+    <select onchange="mudouNe()" id="itens">
+        <option value="1">Valor 1</option>
+        <option value="2">Valor 2</option>
+        <option value="3">Valor 3</option>
+        <option value="4">Valor 4</option>
+    </select>
+
+    <h2>onblur</h2>
+    <input onblur="eventoClick()" id="blur" style="padding: 80px; font-size:40px;" type="text"
+        placeholder="Digite alguma coisa"><br><br>
+
+    <h2>onkeypress</h2>
+    <input onkeypress="teclaPressionada()" id="testePressionada" style="padding: 80px; font-size:40px;" type="text"
+        placeholder="Digite alguma coisa"><br><br>
+
+    <h2>onkeyup</h2>
+    <input onkeyup="teclaUp()" id="testeUp" style="padding: 80px; font-size:40px;" type="text"
+        placeholder="Digite alguma coisa"><br><br>
+
+    <h2>onkeydown</h2>
+    <input onkeydown="teclaDown()" id="testeDown" style="padding: 80px; font-size:40px;" type="text"
+        placeholder="Digite alguma coisa"><br><br>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
