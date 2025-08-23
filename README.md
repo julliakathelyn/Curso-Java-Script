@@ -1,9 +1,9 @@
-# 📘 Curso JavaScript - Programação Web 
+# 📒 Curso JavaScript - Programação Web 
 
 <img src="img-curso-js/img-1.png" alt="App Screenshot" width="100%" height="500"/>
 
-Este repositório foi criado para armazenar e organizar os conteúdos que aprendi durante o **curso de JavaScript**.  
-Cada pasta representa uma aula com exemplos práticos, anotações e exercícios que ajudam a fixar os principais conceitos da linguagem.  
+Este repositório foi criado para armazenar os conteúdos que aprendi durante o **curso de JavaScript** no canal do Youtube: Programação Web.  
+Cada pasta representa uma aula.
 
 ---
 
@@ -11,7 +11,7 @@ Cada pasta representa uma aula com exemplos práticos, anotações e exercícios
 
 Durante meus estudos, utilizei a seguinte playlist do YouTube como base:
 
-- [Curso JavaScript ](https://www.youtube.com/playlist?list=PL2Fdisxwzt_d590u3uad46W-kHA0PTjjw)
+- [Curso JavaScript](https://www.youtube.com/playlist?list=PL2Fdisxwzt_d590u3uad46W-kHA0PTjjw)
 
 
 <p align="center">
