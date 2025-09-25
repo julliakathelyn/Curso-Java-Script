@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .start{
+            width: 200px;
+            height: 100px;
+            background-color: aqua;
+            border: black;
+            border-radius: 10px;
+            cursor: pointer;
+
+        }
+
+        .stop{
+            width: 200px;
+            height: 100px;
+            background-color: red;
+            border: black;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .intervalo{
+            width: 200px;
+            height: 100px;
+            background-color: yellow;
+            border: black;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        .pararTempo{
+            width: 200px;
+            height: 100px;
+            background-color: yellow;
+            border: black;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        
+    
+    </style>
+</head>
+<body>
+
+    
+
+    <h1>Controle de tempo</h1>
+    <h2 id="tempo"> 0 </h2>
+    <button onclick="ativarContagem()" class="start"> Ativar Contagem </button>
+    <button onclick="pararContagem()" class="stop"> Para Contagem</button>
+    <button onclick="intervalo()" class="intervalo"> Intervalo</button>
+    <button onclick="pararTempo()" class="pararTempo"> Parar Cronometro </button>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
